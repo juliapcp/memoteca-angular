@@ -43,7 +43,7 @@
             type="radio"
             id="modelo1"
             value="modelo1"
-            name="modelo"
+            formControlName="modelo"
           >
           <div class="custom-radio">
             <span></span>
@@ -64,7 +64,7 @@
             type="radio"
             id="modelo2"
             value="modelo2"
-            formControlName="modelo"
+            formControlformControlName="modelo"
           >
           <div class="custom-radio">
             <span></span>
@@ -85,7 +85,7 @@
             type="radio"
             id="modelo3"
             value="modelo3"
-            formControlName="modelo"
+            formControlformControlName="modelo"
           >
           <div class="custom-radio">
             <span></span>
@@ -101,7 +101,13 @@
       </div>
     </div>
     <div class="acoes">
-      <button (click)="criarPensamento()" class="botao">Salvar</button>
+      <button 
+      [disabled]="!formulario.valid"
+      (click)="criarPensamento()" 
+      [ngClass]="habilitarBotao()"
+      >
+      Salvar
+      </button>
       <button (click)="cancelar()" class="botao">Cancelar</button>
     </div>
   </form>

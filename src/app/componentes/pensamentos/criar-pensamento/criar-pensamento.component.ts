@@ -23,12 +23,10 @@ export class CriarPensamentoComponent implements OnInit {
     this.formulario = this.formBuilder.group({
       conteudo:['', Validators.compose([
         Validators.required,
-        Validators.pattern(/^\S + $/),
         Validators.minLength(3)
       ])],
       autoria: ['', Validators.compose([
-        Validators.required,
-        Validators.pattern(/^\S + $/),
+        Validators.required,,
         Validators.minLength(3)
       ])],
       modelo: ['modelo2']
@@ -47,4 +45,11 @@ export class CriarPensamentoComponent implements OnInit {
     this.router.navigate(['/listarPensamento'])
   }
 
+  habilitarBotao(){
+    if(this.formulario.valid){
+      return 'botao';
+    } else {
+      return 'botao__desabilitado'
+    }
+  }
 }
