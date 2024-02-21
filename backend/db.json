@@ -7,12 +7,6 @@
       "modelo": "modelo1"
     },
     {
-      "id": 2,
-      "conteudo": "Na minha máquina funciona!",
-      "autoria": "Dev da madrugada",
-      "modelo": "modelo2"
-    },
-    {
       "id": 3,
       "conteudo": "Continue a codar... continue a codar...",
       "autoria": "Dory programadora",
@@ -29,6 +23,30 @@
       "autoria": "pensamento",
       "modelo": "modelo1",
       "id": 5
+    },
+    {
+      "conteudo": "Pensando pensamentos pensantes",
+      "autoria": "Julia",
+      "modelo": "modelo1",
+      "id": 6
+    },
+    {
+      "conteudo": "Café, muito café",
+      "autoria": "Programador cansado",
+      "modelo": "modelo2",
+      "id": 7
+    },
+    {
+      "conteudo": "Apenas mais um dia",
+      "autoria": "Pensador",
+      "modelo": "modelo2",
+      "id": 8
+    },
+    {
+      "conteudo": "Mais um pensamento",
+      "autoria": "Julia",
+      "modelo": "modelo2",
+      "id": 9
     }
   ]
 }
