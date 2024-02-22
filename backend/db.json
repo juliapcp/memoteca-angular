@@ -1,50 +1,58 @@
 {
   "pensamentos": [
     {
-      "id": 1,
       "conteudo": "We are the champions my friends!!!",
       "autoria": "Queen",
-      "modelo": "modelo1"
+      "favorito": false,
+      "modelo": "modelo2",
+      "id": 1
     },
     {
       "id": 3,
       "conteudo": "Continue a codar... continue a codar...",
       "autoria": "Dory programadora",
+      "favorito": true,
       "modelo": "modelo3"
     },
     {
       "conteudo": "Testando função de editar",
       "autoria": "Angular ",
+      "favorito": false,
       "modelo": "modelo2",
       "id": 4
     },
     {
       "conteudo": "teste",
       "autoria": "pensamento",
+      "favorito": false,
       "modelo": "modelo1",
       "id": 5
     },
     {
       "conteudo": "Pensando pensamentos pensantes",
       "autoria": "Julia",
+      "favorito": true,
       "modelo": "modelo1",
       "id": 6
     },
     {
       "conteudo": "Café, muito café",
       "autoria": "Programador cansado",
+      "favorito": false,
       "modelo": "modelo2",
       "id": 7
     },
     {
       "conteudo": "Apenas mais um dia",
       "autoria": "Pensador",
+      "favorito": false,
       "modelo": "modelo2",
       "id": 8
     },
     {
       "conteudo": "Mais um pensamento",
       "autoria": "Julia",
+      "favorito": false,
       "modelo": "modelo2",
       "id": 9
     }
